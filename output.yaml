@@ -1,0 +1,376 @@
+trustzones:
+  - label:   Public Cloud
+    type:    Public Cloud
+    id:      b61d6911-338d-46a8-9f39-8dcd24abfe91
+    default: true
+
+  - label:  Private Secured Cloud
+    type:   Private Secured
+    id:     2ab4effa-40b7-4cd2-ba81-8247d29a6f2d
+
+  - label:  Internet
+    type:   Internet
+    id:     f0ba7722-39b6-4c81-8290-a30a248bb8d9
+    
+components:
+    ################################################################################################
+    #   Azure STENCILS
+    ################################################################################################
+      - label: Component 1
+        type: CD-AZURE-CUSTOMER-LOCKBOX
+    
+      - label: Component 2
+        type: CD-MICROSOFT-AZURE-AD-B2C
+    
+      - label: Component 3
+        type: CD-MICROSOFT-AZURE-AD-DS
+    
+      - label: Component 4
+        type: CD-MICROSOFT-AZURE-ANALYSIS-SERVICE
+    
+      - label: Component 5
+        type: CD-MICROSOFT-AZURE-API-APPS
+    
+      - label: Component 6
+        type: CD-MICROSOFT-AZURE-API-MNGMT
+    
+      - label: Component 7
+        type: CD-MICROSOFT-AZURE-APP-CONFIG
+    
+      - label: Component 8
+        type: CD-MICROSOFT-AZURE-APP-INSIGHTS
+    
+      - label: Component 9
+        type: CD-MICROSOFT-AZURE-APP-SERVICE
+    
+      - label: Component 10
+        type: CD-MICROSOFT-AZURE-APP-SERVICE-ENV
+    
+      - label: Component 11
+        type: CD-MICROSOFT-AZURE-ATTESTATION
+    
+      - label: Component 12
+        type: CD-MICROSOFT-AZURE-AUTOMATION
+    
+      - label: Component 13
+        type: CD-MICROSOFT-AZURE-BACKUP
+    
+      - label: Component 14
+        type: CD-MICROSOFT-AZURE-BASTION
+    
+      - label: Component 15
+        type: CD-MICROSOFT-AZURE-BATCH
+    
+      - label: Component 16
+        type: CD-MICROSOFT-AZURE-BLOB-STORAGE
+    
+      - label: Component 17
+        type: CD-MICROSOFT-AZURE-BLOCKCHAIN-WORKBENCH
+    
+      - label: Component 18
+        type: CD-MICROSOFT-AZURE-BOT-FW-SDK
+    
+      - label: Component 19
+        type: CD-MICROSOFT-AZURE-BOT-SERVICE
+    
+      - label: Component 20
+        type: CD-MICROSOFT-AZURE-CACHE-REDIS
+    
+      - label: Component 21
+        type: CD-MICROSOFT-AZURE-CDN
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-CITRIX-DAAS
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-CLI
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-CLOUD-SHELL
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-COG-SER
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-CONF-LEDGER
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-CONTAINER-APPS
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-CONTAINER-INSTANCES
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-CONTAINER-REGISTRY
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DATA-BOX
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DATA-CATALOG
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DATA-FACTORY
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DATA-LAKE-ANALYTICS
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DATA-LAKE-STORAGE
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DATA-SHARE
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DATABRICKS
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DATADOG
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DB-MYSQL
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DB-POSTGRESQL
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DDOS-PROTECTION
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DEDICATED-HSM
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DEFENDER-IOT
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DEVOPS-SERVICE
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DNS
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-DYNAMICS-365
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-ELASTICSEARCH
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-EVENT-GRID
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-EVENT-HUB
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-FILE-SYNC
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-FILES
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-HDINSHIGHT
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-IMPORT-EXPORT
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-IOT-EDGE
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-IOT-HUB
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-LINUX-VM
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-MACH-LEARN
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-MANAGED-APPS
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-MANAGED-RESOURCE-GROUPS
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-MARKETPLACE
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-MEDIA-SERVICES
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-MOBILE-APPS
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-NOTIFICATION-HUBS
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-NW-WATCHER
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-OFFICE-365
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-POWER-BI
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-POWERSHELL
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-PRIVATE-LINK
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-PURVIEW
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-QUEUE-STORAGE
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-RELAY
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-RESOURCE-MANAGER
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SDK
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SDK-JAVA
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SDK-JAVASCRIPT
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SDK-NET
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SDK-PYTHON
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SENTINEL
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SER-BUS-MSG
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SERVICE-FABRIC
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SITE-RECOVERY
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SQL-DB
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SQL-EDGE
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SQL-MI
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SQL-SERVER
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-STR-ANALYTICS
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-SYNAPSE-ANALYTICS
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-TABLE-STORAGE
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-TIME-SERIES-INSIGHTS
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-VIRTUAL-DESKTOP
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-VISUAL-STUDIO
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-VM-SCALE-SET
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-VNET
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-VPN-GW
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-WAF
+    
+      - label: nan
+        type: CD-MICROSOFT-AZURE-WINDOWS-VM
+    
+      - label: nan
+        type: CD-MICROSOFT-INFO-PROTECTION
+    
+      - label: nan
+        type: CD-MICROSOFT-VIRTUAL-WAN
+    
+      - label: nan
+        type: azure-sql
+    
+      - label: nan
+        type: azure-storage
+    
+      - label: nan
+        type: azure-virtual-machines
+    
+      - label: nan
+        type: microsoft-azure-active-directory
+    
+      - label: nan
+        type: microsoft-azure-ad-remote-workers
+    
+      - label: nan
+        type: microsoft-azure-application-gateway
+    
+      - label: nan
+        type: microsoft-azure-cosmos-db
+    
+      - label: nan
+        type: microsoft-azure-environment
+    
+      - label: nan
+        type: microsoft-azure-expressroute
+    
+      - label: nan
+        type: microsoft-azure-firewall
+    
+      - label: nan
+        type: microsoft-azure-firewall-manager
+    
+      - label: nan
+        type: microsoft-azure-front-door
+    
+      - label: nan
+        type: microsoft-azure-functions
+    
+      - label: nan
+        type: microsoft-azure-key-vault
+    
+      - label: nan
+        type: microsoft-azure-kubernetes-service
+    
+      - label: nan
+        type: microsoft-azure-load-balancer
+    
+      - label: nan
+        type: microsoft-azure-logic-apps
+    
+      - label: nan
+        type: microsoft-azure-monitor
+    
+      - label: nan
+        type: microsoft-azure-portal
+    
+      - label: nan
+        type: microsoft-azure-security-center
+    
+      - label: nan
+        type: microsoft-azure-traffic-manager
+    
+      - label: nan
+        type: microsoft-azure-web-apps
+    
+    dataflows: []
